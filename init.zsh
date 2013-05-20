@@ -11,12 +11,3 @@ else
 	return 0
 fi
 
-mark() { # open markdown files in Marked.app
-	for file in "$@"; do
-		[ -f "$file" ] && open -a /Applications/Marked.app "$file"
-	done
-}
-
-alias -s md=mark
-alias -s mmd=mark
-alias -s markdown=mark

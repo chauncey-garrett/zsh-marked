@@ -1,33 +1,32 @@
-# Zsh Marked.app Plugin
+# Zsh module for Marked.app
 
-Zsh plugin for Brett Terpstra's (OS X) Marked.app
+#### Designed for Prezto...compatiable with Oh My Zsh.
 
-Gives the command `mark` which will open markdown files with Marked.app. i.e.,
 
-    $ mark README.md
-    
-will open `README.md` in Marked.app.
+Defines [Marked.app][marked] aliases and functions.
 
-Additionally, it `alias -s` files ending in 
-   
-    *.md
-    *.mmd
-    *.markdown
-    
-to open in Marked.app
+## Aliases
 
-#### Try it out (with [zsh-users/antigen][antigen]):
+Suffix aliases are made for the following extensions:
 
-[antigen]:  https://github.com/zsh-users/antigen	"zsh-users/angtigen"
+- `*.md`
+- `*.mmd`
+- `*.markdown`
+
+## Functions
+
+  - `mark` will open markdown files with Marked.app
+  
+## Try it out (with [antigen][antigen])
 
     antigen bundle vrtcl1dvoshun/marked
 
-#### Like it?
+## Like it?
 
 Add it to your `.zshrc`:
 
-    source /path-to-antigen clone/antigen.zsh
-    antigen use oh-my-zsh # OR prezto
+    source "/path-to-antigen clone/antigen.zsh"
+    antigen use prezto # OR oh-my-zsh
     .
     .
     .
@@ -36,4 +35,17 @@ Add it to your `.zshrc`:
     .
     .
     antigen apply
-    
+	
+If not, open an issue!
+
+## Author(s)
+
+*The author(s) of this module should be contacted via the [issue tracker][issue_tracker].*
+
+  - [vrtcl1dvoshun][vrtcl1dvoshun]
+
+[antigen]:        https://github.com/zsh-users/antigen            "zsh-users/angtigen"
+[marked]:         http://markedapp.com/                           "Marked.app"
+[issue_tracker]:  https://github.com/vrtcl1dvoshun/marked/issues  "vrtcl1dvoshun/marked/issues"
+[vrtcl1dvoshun]:  https://github.com/vrtcl1dvoshun                "vrtcl1dvoshun"
+
