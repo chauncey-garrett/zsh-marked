@@ -1,6 +1,5 @@
 # This file allows the prezto module to function as an oh-my-zsh plugin
-local DIR=$(dirname $0)
-source $DIR/init.zsh
-source $DIR/alias.zsh
-source $DIR/functions/mark
+source ${0:h}/init.zsh
+source ${0:h}/functions/*
+source ${0:h}/aliases.zsh
 

@@ -1,6 +1,7 @@
 mark() { # open markdown files in Marked.app
 	for file in "$@"; do
 		[ -f "$file" ] && open -a /Applications/Marked.app "$file"
+		echo "Opening $file with Marked.app..."
 	done
 }
 

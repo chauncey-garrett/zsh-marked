@@ -1,13 +1,16 @@
 # Test if the OS X App exists
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 local app="Marked.app"
-local user_app="~/Applications/$app"
+local user_app="$HOME/Applications/$app"
 local global_app="/Applications/$app"
-if [[ -d $user_app ]]; then
-	return 0
-elif [[ ! -d $global_app ]]; then
-	return 1
+if [[ -e "$user_app" ]]; then
+#	echo "Found $app at $user_app"
+elif [[ -e "$global_app" ]]; then
+#	echo "Found $app at $global_app"
 else
-	return 0
+	echo "Couldn't find $app"
+	return 1
 fi
+
+source ${0:h}/aliases.zsh
 
