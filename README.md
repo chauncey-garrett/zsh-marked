@@ -7,16 +7,18 @@ Defines [Marked.app][marked] aliases and functions.
 
 ## Aliases
 
-Suffix aliases are made for the following extensions:
-
-- `*.md`
-- `*.mmd`
-- `*.markdown`
+| Pseudonym | Value
+| ------------ | -----------
+|  `*.md`, `*.mmd`, `*.markdown` | Suffix aliases for `mark`
+[][aliases]
 
 ## Functions
 
-  - `mark` will open markdown files with Marked.app
-  
+| Command     | Description
+| ----------- | -----------
+|  `mark`     | Open files with Marked.app
+[][functions]
+
 ## Try it out (with [antigen][antigen])
 
     antigen bundle vrtcl1dvoshun/marked
