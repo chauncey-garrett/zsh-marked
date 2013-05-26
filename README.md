@@ -5,13 +5,13 @@
 
 Defines [Marked.app][marked] aliases and functions.
 
-## Aliases
+## Aliase(s)
 
 | Pseudonym | Value
 | ------------ | -----------
 |  `*.md`, `*.mmd`, `*.markdown` | Suffix aliases for `mark`
 
-## Functions
+## Function(s)
 
 | Command     | Description
 | ----------- | -----------
