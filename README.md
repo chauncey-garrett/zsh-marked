@@ -5,7 +5,7 @@
 
 Defines [Marked.app][marked] aliases and functions.
 
-## Aliase(s)
+## Alias(es)
 
 | Pseudonym | Value
 | ------------ | -----------
