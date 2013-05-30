@@ -2,7 +2,6 @@
 
 #### Designed for Prezto...compatiable with Oh My Zsh.
 
-
 Defines [Marked.app][marked] aliases and functions.
 
 ## Alias(es)
@@ -44,8 +43,12 @@ If not, open an issue!
 
   - [Chauncey Garrett][chauncey-garrett]
 
-[antigen]:           https://github.com/zsh-users/antigen               "zsh-users/angtigen"
-[marked]:            http://markedapp.com/                              "Marked.app"
-[issue_tracker]:     https://github.com/chauncey-garrett/marked/issues  "chauncey-garrett/marked/issues"
-[chauncey-garrett]:  https://github.com/chauncey-garrett                "chauncey-garrett"
+[![][flattr_img]][flattr]
+
+[antigen]:           https://github.com/zsh-users/antigen                  "zsh-users/angtigen"
+[marked]:            http://markedapp.com/                                 "Marked.app"
+[issue_tracker]:     https://github.com/chauncey-garrett/marked/issues     "chauncey-garrett/marked/issues"
+[chauncey-garrett]:  https://github.com/chauncey-garrett                   "chauncey-garrett"
+[flattr_img]:        https://api.flattr.com/button/flattr-badge-large.png  "Flattr me!"
+[flattr]:            https://flattr.com/thing/1397252
 
