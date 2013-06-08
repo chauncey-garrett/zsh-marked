@@ -24,15 +24,11 @@ Defines [Marked.app][marked] aliases and functions.
 
 Add it to your `.zshrc`:
 
-    source "/path-to-antigen clone/antigen.zsh"
+    source "/path-to-antigen-clone/antigen.zsh"
     antigen use prezto # OR oh-my-zsh
-    .
-    .
-    .
+    ...
     antigen bundle chauncey-garrett/marked
-    .
-    .
-    .
+    ...
     antigen apply
 	
 If not, open an issue!
